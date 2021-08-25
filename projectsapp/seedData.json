@@ -1,0 +1,44 @@
+[
+  {
+    "project": "Random Imager",
+    "liveurl": "https://random-imager.vercel.app/",
+    "giturl": "https://github.com/dctang4/Random-Imager.git",
+    "image": "https://res.cloudinary.com/dvxvez8mj/image/upload/c_scale,h_190,w_284/v1618342864/random-imager_krfrss.png",
+    "description": "Using jQuery to create a random imager of tarot cards"
+  },
+  {
+    "project": "Portfolio",
+    "liveurl": "https://chun-hin-tang-portfolio.vercel.app/",
+    "giturl": "https://github.com/dctang4/Project-1-329.git",
+    "image": "https://res.cloudinary.com/dvxvez8mj/image/upload/v1624667654/Portfolio-screenshot_ch6noj.png",
+    "description": "My Portfolio created using Javascript and Jquery"
+  },
+  {
+    "project": "My Hero App",
+    "liveurl": "https://project-2-329-three.vercel.app/",
+    "giturl": "https://github.com/dctang4/Project-2-329.git",
+    "image": "https://res.cloudinary.com/dvxvez8mj/image/upload/v1624667959/My_Hero_App_Screenshot_nyzk6q.png",
+    "description": "App on the heroes of My Hero Academia. React frontend and pulling from an API"
+  },
+  {
+    "project": "Frizzy App",
+    "liveurl": "https://romantic-davinci-885eed.netlify.app/",
+    "giturl": "https://github.com/Nbrof/Project-3-Frontend.git",
+    "image": "https://res.cloudinary.com/dvxvez8mj/image/upload/v1624668435/Frizzy_App_screenshot_jlfaho.png",
+    "description": "Group project in creating an ice cream app. React frontend and MongoDB backend"
+  },
+  {
+    "project": "Tunr App",
+    "liveurl": "https://romantic-davinci-885eed.netlify.app/",
+    "giturl": "https://github.com/dctang4/Tunr-Unit-4-Frontend.git",
+    "image": "https://res.cloudinary.com/dvxvez8mj/image/upload/v1624668782/TUNR_App_screenshot_awrc4z.png",
+    "description": "Music app with a React frontend and a AWS backend to store added music"
+  },
+  {
+    "project": "Fruity App",
+    "liveurl": "https://fruity-app.vercel.app/",
+    "giturl": "https://github.com/dctang4/Project-4-329-Capstone-Frontend.git",
+    "image": "https://res.cloudinary.com/dvxvez8mj/image/upload/v1624668993/Fruity_App_screenshot_ptt3i4.png",
+    "description": "A Boba Tea shop app created using React for frontend Python/Django for backend"
+  }
+]
