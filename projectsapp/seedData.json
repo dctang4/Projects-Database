@@ -44,7 +44,7 @@
     "model": "projectsapp.project",
     "fields": {
       "project": "Tunr App",
-      "liveurl": "https://romantic-davinci-885eed.netlify.app/",
+      "liveurl": "https://tunr-unit-4-frontend.vercel.app/",
       "giturl": "https://github.com/dctang4/Tunr-Unit-4-Frontend.git",
       "image": "https://res.cloudinary.com/dvxvez8mj/image/upload/v1624668782/TUNR_App_screenshot_awrc4z.png",
       "description": "Music app with a React frontend and a AWS backend to store added music"

@@ -33,7 +33,7 @@ class ProjectsView(View):
 class OneProjectView(View):
   def get(slef, req, param):
     # Filter and find a single item then serialize the data into JSON then turn the JSON into a dict
-    one = loads(serialize('json', Project.objects.filter(name=param)))
+    one = loads(serialize('json', Project.objects.filter(project=param)))
     # Send the JSON response
     return JsonResponse(one, safe=False)
 
@@ -41,14 +41,14 @@ class OneProjectView(View):
     # Turn the body into a dict
     body = loads(req.body.decode("utf-8"))
     # update the item
-    Project.objects.filter(name=param).update(
+    Project.objects.filter(project=param).update(
       project=body['project'],
       livelurl=body['livelurl'],
       giturl=body['giturl'],
       image=body['image'],
       description=body['description'],
     )
-    newrecord = Project.object.filter(name=param)
+    newrecord = Project.object.filter(project=param)
     # Turn the object to json to dict, put in array to avoid non-iterable error
     data = loads(serialize('json', newrecord))
     # send json response with updated object
@@ -56,7 +56,7 @@ class OneProjectView(View):
 
   def delete(self, req, param):
     # delete the item, get all remaining records for response
-    Project.objects.filter(name=param).delete()
+    Project.objects.filter(project=param).delete()
     newrecord = Project.objects.all()
     # Turn the results to json to dict, put in array to avoid non-iterable error
     data = loads(serialize('json', newrecord))
